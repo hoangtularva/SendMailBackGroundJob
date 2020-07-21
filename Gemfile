@@ -54,4 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #configuration email
-gem "figaro"
+gem "figaro" #bundle exec figaro install
+
+#Background job
+gem "sidekiq" # bundle exec sidekiq
